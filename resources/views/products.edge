@@ -1,0 +1,19 @@
+@! section('title') Products @! end
+@! section('content')
+  <h2>Products</h2>
+  <div id="products">
+    @! if(products && products.length)
+      @! for(p in products)
+        <div class="product">
+          <strong>{{ p.name }}</strong>
+          <div>{{ p.category }}</div>
+          <div>${{ p.price }}</div>
+          <form method="post" action="/wishlist/add">
+            <input type="hidden" name="product_id" value="{{ p.id }}">
+            <button type="submit">Add to Wishlist</button>
+          </form>
+        </div>
+      @! end
+    @! end
+  </div>
+@! end

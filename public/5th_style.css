@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Baskerville";
+  background-color: #cce6b0; 
+  text-align: center;
+  color: white;
+}
+
+.topnav {
+  background-color: #1d4807;
+  text-align: center;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+}
+
+.topnav a {
+  display: inline-block;
+  color: #f2f2f2;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: Monaco;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.contact-section h1 {
+  font-size: 70px;
+  margin-bottom: 10px;
+  margin-top: 150px ;
+  color: #112108;
+}
+
+.contact-section p {
+  font-size: 18px;
+  margin-bottom: 50px;
+  color: #112108;
+}
+
+.icon-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 200px); 
+  gap: 100px; 
+  justify-content: center; 
+}
+
+
+.icon-grid a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  background-color: #2e2410;
+  padding: 20px;
+  border-radius: 50%; 
+  width: 200px;   
+  height: 200px;
+  margin: 0 auto;
+  justify-content: center;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.icon-grid a:hover {
+  transform: scale(1.08);
+  background-color: #3d3117;
+}
+
+.icon-grid img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 8px;
+}
+
+.icon-grid span {
+  color: #ede8d0;
+  font-size: 14px;
+}
+
+.logo-corner {
+  position: absolute;
+  top: 75px;   
+  left: 60px;  
+  width: 160px;  
+}
+

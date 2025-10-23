@@ -1,0 +1,352 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Baskerville";
+  background-color: #1d170b; 
+  text-align: center;
+  color: white;
+}
+
+.topnav {
+  background-color: #1d4807;
+  text-align: center;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+}
+
+.topnav a {
+  display: inline-block;
+  color: #f2f2f2;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: Monaco;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.cover-container {
+  width: 100%;
+  position: relative;
+}
+
+.cover {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  display: block;  
+}
+
+
+.branding {
+  background-color: #cce6b0;
+  height: 60vh;
+}
+
+.branding h1 {
+  font-family: Cambria;
+  font-size: 80px;
+  color: rgb(3, 9, 0);
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.branding h2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 100;
+  font-size: 48px;
+  color: rgb(9, 27, 0);
+}
+
+.judul {
+  overflow: hidden;
+  padding: 20px;
+  position: relative;
+  background-color: #1d170b;
+}
+
+.judul h1{
+  font-family: "Cambria";
+  font-size: 70px;
+  line-height: 1.6;
+  text-align: center;
+  color: #cce6b0;
+}
+
+.judul div {
+  float: left;
+  width: 1500px;
+  height: 160px ;
+  margin-top: 35px;  
+}
+
+.first {
+  overflow: hidden;
+  padding: 20px;
+  position: relative;
+  background-color: #1d170b;
+}
+
+.first div {
+  float: left;
+  width: 55%;
+  margin-top: 100px;  
+}
+
+.first p {
+  line-height: 1.6;
+  font-family: 'Baskerville';   
+  font-size: 25px ;
+  color:white; 
+  text-align: center;
+}
+
+.first h1 {
+  line-height: 1.6;
+  font-family: 'Baskerville';   
+  font-size: 25px ;
+  color:white; 
+  text-align: center;
+}
+
+.first img {
+  float: right;
+  width: 400px;
+  height: auto;
+  margin-left: 20px;
+}
+
+.second {
+  overflow: hidden; 
+  padding: 20px;
+  position: relative;
+  background-color: #1d170b;
+}
+
+.second h1 {
+  line-height: 1.6;
+  font-family: 'Baskerville';   
+  font-size: 25px ;
+  color:white; 
+  text-align: center;
+}
+
+.second div {
+  float: left;
+  width: 55%;
+  margin-top: 100px;  
+}
+
+.second p {
+  line-height: 1.6;
+  font-family: 'Baskerville';   
+  font-size: 25px ;
+  color:white; 
+  text-align: center;
+}
+
+.second img {
+  float: right;
+  width: 400px;
+  height: auto;
+  margin-left: 20px;
+}
+
+.third {
+  overflow: hidden; 
+  padding: 20px;
+  position: relative;
+  background-color: #1d170b;
+}
+
+.third h1 {
+  line-height: 1.6;
+  font-family: 'Baskerville';   
+  font-size: 25px ;
+  color:white; 
+  text-align: center;
+}
+
+
+.third div {
+  float: left;
+  width: 55%;
+  margin-top: 100px;  
+}
+
+.third p {
+  line-height: 1.6;
+  font-family: 'Baskerville';   
+  font-size: 25px ;
+  color:white; 
+  text-align: center;
+}
+
+.third img {
+  float: right;
+  width: 400px;
+  height: auto;
+  margin-left: 20px;
+}
+
+.fourth {
+  overflow: hidden; 
+  padding: 20px;
+  position: relative;
+  background-color: #1d170b;
+}
+
+.fourth h1 {
+  line-height: 1.6;
+  font-family: 'Baskerville';   
+  font-size: 25px ;
+  color:white; 
+  text-align: center;
+}
+
+.fourth div {
+  float: left;
+  width: 55%;
+  margin-top: 100px;  
+}
+
+.fourth p {
+  line-height: 1.6;
+  font-family: 'Baskerville';   
+  font-size: 25px ;
+  color:white; 
+  text-align: center;
+}
+
+.fourth img {
+  float: right;
+  width: 400px;
+  height: auto;
+  margin-left: 20px;
+}
+
+.fifth {
+  overflow: hidden; 
+  padding: 20px;
+  position: relative;
+  background-color: rgb(191, 183, 148);
+}
+
+.fifth h1 {
+  line-height: 1.6;
+  font-family: 'Baskerville';   
+  font-size: 25px ;
+  color:rgb(21, 14, 3); 
+  text-align: center;
+}
+
+.fifth div {
+  float: left;
+  width: 55%;
+  margin-top: 100px;  
+}
+
+.fifth p {
+  line-height: 1.6;
+  font-family: 'Baskerville';   
+  font-size: 25px ;
+  color:rgb(21, 14, 3); 
+  text-align: center;
+}
+
+.fifth img {
+  float: right;
+  width: 400px;
+  height: auto;
+  margin-left: 20px;
+}
+
+.sixth {
+  overflow: hidden; 
+  padding: 20px;
+  position: relative;
+  background-color: rgb(191, 183, 148);
+}
+
+.sixth h1 {
+  line-height: 1.6;
+  font-family: 'Baskerville';   
+  font-size: 25px ;
+  color:rgb(21, 14, 3);
+  text-align: center;
+}
+
+
+.sixth div {
+  float: left;
+  width: 55%;
+  margin-top: 100px;  
+}
+
+.sixth p {
+  line-height: 1.6;
+  font-family: 'Baskerville';   
+  font-size: 25px ;
+  color:rgb(21, 14, 3); 
+  text-align: center;
+}
+
+.sixth img {
+  float: right;
+  width: 400px;
+  height: auto;
+  margin-left: 20px;
+}
+
+.seventh {
+  overflow: hidden; 
+  padding: 20px;
+  position: relative;
+  background-color: rgb(191, 183, 148)
+}
+
+.seventh h1 {
+  line-height: 1.6;
+  font-family: 'Baskerville';   
+  font-size: 25px ;
+  color:rgb(21, 14, 3);
+  text-align: center;
+}
+
+
+.seventh div {
+  float: left;
+  width: 55%;
+  margin-top: 100px;  
+}
+
+.seventh p {
+  line-height: 1.6;
+  font-family: 'Baskerville';   
+  font-size: 25px ;
+  color:rgb(21, 14, 3); 
+  text-align: center;
+}
+
+.seventh img {
+  float: right;
+  width: 400px;
+  height: auto;
+  margin-left: 20px;
+}
+
+.logo-corner {
+  position: absolute;
+  top: 30px;   
+  left: 60px;  
+  width: 160px; 
+}

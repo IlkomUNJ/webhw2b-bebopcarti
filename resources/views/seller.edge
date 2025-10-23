@@ -1,0 +1,34 @@
+@! section('title') Seller @! end
+@! section('content')
+  <h2>Seller Panel</h2>
+  <form id="addForm" method="post" action="/seller/add">
+    <input name="name" placeholder="Product name" required>
+    <input name="category" placeholder="Category" required>
+    <input name="price" placeholder="Price" required>
+    <button type="submit">Add Item</button>
+  </form>
+  <h3>Products</h3>
+  <div id="sellerProducts">
+    @! if(products && products[0] && products[0].rows)
+      @! for(row in products[0].rows)
+        <div class="product">
+          <strong>{{ row.name }}</strong>
+          <div>{{ row.category }}</div>
+          <div>${{ row.price }}</div>
+        </div>
+      @! end
+    @! end
+  </div>
+  <h3>All Wishlists</h3>
+  <div id="allWish">
+    @! if(wish && wish[0] && wish[0].rows)
+      @! for(row in wish[0].rows)
+        <div class="product">
+          <strong>{{ row.name }}</strong>
+          <div>{{ row.category }}</div>
+          <div>${{ row.price }}</div>
+        </div>
+      @! end
+    @! end
+  </div>
+@! end

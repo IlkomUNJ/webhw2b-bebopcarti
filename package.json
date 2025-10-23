@@ -1,0 +1,13 @@
+{
+  "name": "HW2_FairyCamp_Adonis_NoSQL_Final",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "@adonisjs/core": "^5.5.3",
+    "edge.js": "^1.0.0"
+  }
+}
