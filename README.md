@@ -63,12 +63,4 @@ Then open your browser at:
 http://localhost:3333
 ```
 
----
 
-
----
-
-Would you like me to:
-
-1. Format this into a real `README.md` file (UTF-8 markdown) so you can upload it directly, or
-2. Paste this text directly into your GitHub online editor?
