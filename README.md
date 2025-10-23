@@ -21,7 +21,7 @@ GitHub Repository: [https://github.com/IlkomUNJ/webhw2b-bebopcarti]
 ###  Features
 
 * Homepage and navigation identical to Homework 1 (Fairy Camp design)
-* Product list rendered dynamically from arrays (no database)
+* Product list rendered dynamically from arrays 
 * Add / Remove items using in-memory arrays
 * AdonisJS routing and controller logic
 * Public assets (images, CSS, etc.) fully retained from Homework 1
