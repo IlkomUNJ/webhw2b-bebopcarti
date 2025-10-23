@@ -12,7 +12,7 @@ GitHub Repository: [https://github.com/IlkomUNJ/webhw2b-bebopcarti]
 ###  Tech Stack
 
 * **AdonisJS** (MVC Framework)
-* **HTML5, CSS3**
+* **HTML5, CSS**
 * **JavaScript**
 * **Node.js**
 
