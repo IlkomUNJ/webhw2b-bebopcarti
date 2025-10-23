@@ -1,7 +1,7 @@
 ###  Author
 
-**Nayla Zahra (NIM: 1313624075 Class B-2024**
-Ilkom UNJ – Web Programming Homework 2
+**Nayla Zahra (NIM: 1313624075 Class B-2024)**
+**Homework 2**
 GitHub Repository: [https://github.com/IlkomUNJ/webhw2b-bebopcarti]
 
 
